@@ -259,7 +259,7 @@ generator.pth
 discriminator.pth
 ```
 
-![GAN generated image sample grid](generated_images.svg)
+![CIFAR-10 class visual preview](generated_images.svg)
 
 ## Result
 A PyTorch GAN was implemented on CIFAR-10, with Generator and Discriminator performance tracked through adversarial training.
