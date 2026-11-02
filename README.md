@@ -11,7 +11,7 @@ import torchvisionfrom torchvision
 import datasets, transforms
 import matplotlib.pyplot as plt
 import numpy as np
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu') 
 Step 2: Defining Image Transformations
 Use PyTorch’s transforms to convert images to tensors and normalize pixel values between -1 and 1 for better training stability.
 transform = transforms.Compose([
